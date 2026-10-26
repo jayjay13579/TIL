@@ -1,2 +1,32 @@
+<<<<<<< HEAD
+# 제목
+=======
 20261026 git vscode
 ㅇㄹㄴㅇㄹ
+>>>>>>> 6c4f5dbce34a58ecbfbfefcdf377b75bc506edc5
+
+## 소제목
+
+### 작은 제목
+
+> 인용문
+
+**굵은글씨**
+
+- 체크박스
+
+\| 항목 \| 설명 \|
+
+```python
+print("hello world")
+```
+
+<details> 
+d
+d
+d
+</details>
+
+d
+
+✨
