@@ -1,6 +1,2 @@
 # TIL
-
-<!-- TIL-INDEX:START -->
-아직 기록이 없습니다.
-<!-- TIL-INDEX:END -->
-
+[261117](./stage1/261117.md) — [DB] DB 변경, Seed 파일 활용, 데이터 조회

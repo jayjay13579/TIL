@@ -1,4 +1,5 @@
 from pathlib import Path
+from urllib.parse import quote
 
 root = Path(__file__).parent
 readme = root / "README.md"
@@ -7,15 +8,23 @@ start = "<!-- TIL-INDEX:START -->"
 end = "<!-- TIL-INDEX:END -->"
 
 files = sorted(
-    root.glob("[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9].md"),
-    reverse=True,
+    (
+        file
+        for file in root.glob("stage*/*")
+        if file.is_file()
+    ),
+    key=lambda file: (
+        not file.name[:6].isdigit(),  # ← 수정: 날짜가 없는 파일은 아래로
+        file.name[:6],                # ← 수정: 앞 6자리 날짜를 오래된 순으로
+        file.name,                    # 같은 날짜면 파일명순으로 정렬
+    ),
 )
 
 lines = []
 for file in files:
-    year, month, day = file.parts[-3:]
-    date = f"{year}-{month}-{Path(day).stem}"
-    lines.append(f"- [{date}](./{file.relative_to(root).as_posix()})")
+    title = file.name
+    path = quote(file.relative_to(root).as_posix(), safe="/")
+    lines.append(f"- [{title}](./{path})")
 
 content = readme.read_text(encoding="utf-8")
 before, rest = content.split(start, 1)
