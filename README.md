@@ -22,4 +22,4 @@
 |[261116](./stage1/261116.md)|[SQL·DB] DB 생성, 외래키||
 |[261117](./stage1/261117.md)|[SQL·DB] DB 변경, Data dump, 데이터 조회||
 |[261117_과제](./stage1/261117SQL실습과제2.sql)|[SQL·DB] shop DB 생성||
-
+||[SQL·DB] join||
