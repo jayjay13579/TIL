@@ -22,4 +22,5 @@
 |[261116](./stage1/261116.md)|[SQL·DB] DB 생성, 외래키||
 |[261117](./stage1/261117.md)|[SQL·DB] DB 변경, Data dump, 데이터 조회||
 |[261117_과제](./stage1/261117SQL실습과제2.sql)|[SQL·DB] shop DB 생성||
-||[SQL·DB] join||
+|[261118](./stage1/261118.md)|[SQL·DB] 조회/집계(COUNT, SUM 등)/결합(UNION, JOIN), SUB QUERY||
+|[261118](./stage1/261118복습.md)|[SQL·DB] JOIN 개념 이해를 위한 GPT와의 대화록..복습을 위한 이런저런 기록..||
