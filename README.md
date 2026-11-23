@@ -1,5 +1,7 @@
 # TIL
 
+**STAGE 1**
+
 | til | 내용 | 비고 |
 |---|---|---|
 |[261026](./stage1/261026.md)|[Git·GitHub] CLI, Git 설치||
@@ -24,3 +26,12 @@
 |[261117_과제](./stage1/261117SQL실습과제2.sql)|[SQL·DB] shop DB 생성||
 |[261118](./stage1/261118.md)|[SQL·DB] 조회/집계(COUNT, SUM 등)/결합(UNION, JOIN), SUB QUERY||
 |[261118](./stage1/261118복습.md)|[SQL·DB] JOIN 개념 이해를 위한 GPT와의 대화록..복습을 위한 이런저런 기록..||
+|[261119](./stage1/261116.md)|[SQL·DB] UPDATE / DELETE / EXISTS, 파이썬-DB 연결하기||
+|[261121](./stage1/261121전체복습.md)| [전체 복습] stage 1 학습 사항 정리(Git, python, docker, sql, db)||
+
+**STAGE 2**
+
+| til | 내용 | 비고 |
+|---|---|---|
+|[261120](./stage1/261120.md)|[ML] NumPy, Pandas 개념 및 활용||
+|[261123](./stage2/261123.md)|[ML] AI Literacy, 데이터 결측치/이상치 처리, 시각화||
